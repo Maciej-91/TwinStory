@@ -1,0 +1,136 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    font-family: calibri, Arial, Helvetica, sans-serif;
+}
+
+#entete
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: black 00px 0px 66px ;
+}
+.titreLogo
+{
+    display: flex;
+    flex-direction: row;
+    /*border: 2px solid blue;*/
+    width: 40%;
+    height: 7vw;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+h1
+{
+    font-size: 5em;
+}
+.espaceHorizontal
+{
+    width: 1.1vw;
+}
+.logo 
+{
+    height: 4vw;
+    width: 4vw;
+}
+
+/******************** Forum **************************/
+
+#forum
+{
+    padding: 0;
+    margin:0;
+    color:white;
+}
+
+#forumTitre
+{
+    padding: 0;
+    margin:0;
+    text-align: center;
+    background-color:grey;
+}
+
+#headerForum /** concerne l'entête du forum **/
+{
+    padding: 0;
+    margin:0;
+    text-align: center;
+    background-color:grey;
+}
+
+#bodyForum /** concerne le body du forum **/
+{
+    padding: 0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color:#D7DFE3;
+}
+
+.forumCommentaire
+{
+    margin-top: 3vw;
+    padding: 0;
+    background-color: white;
+    width: 50%;
+}
+.headerForumCommentaire /** concerne l'entête du commentaire Utilisateur **/
+{
+    padding: 0;
+    margin:1vw;
+}
+
+
+.headerAffichageCommentaire
+{
+    margin:1vw;
+}
+
+.affichageCommentaire /** concerne l'affichage du message Utilisateur **/
+{
+    margin-left:1vw;
+    margin-right:1vw;
+    margin-top:1vw;
+    margin-bottom:0;
+    background-color: white;
+    padding: 0;
+    width: 50%;
+}
+
+.texteEtBoutton
+{
+    display: flex;
+    margin:1vw;
+    justify-content: space-between;
+}
+textarea
+{
+    padding: 2vw;
+    margin-left:3vw;
+    margin-right:1vw;
+    margin-top:0;
+    margin-bottom:1vw;
+}
+
+.commentaire
+{
+    padding:0;
+    margin-top:0;
+    margin-left:1vw;
+    margin-right:1vw;
+    margin-bottom:1vw;
+}
+
+.pseudoUtilisateur
+{
+    color:orange;
+}

@@ -1,0 +1,787 @@
+/*------------------------Header2-----------------------------*/
+#btnRetour{
+    width: 10vw;
+    background-color:rgb(66, 135, 245);
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3vw;
+    margin-top: 3vw;
+    font-size: 1.5vw;
+    border-radius: 4px;
+    color: white;
+}
+
+.btnRetour{
+    color: white;
+}
+
+/*-----------------------Fin Header2--------------------------*/
+
+
+/*-----------------------Header 3-----------------------------*/
+
+#btnDeco{
+    width: 10vw;
+    background-color:rgb(66, 135, 245);
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3vw;
+    margin-top: 3vw;
+    font-size: 1.5vw;
+    border-radius: 4px;
+    color: white;
+}
+
+.btnDeco{
+    color: white;
+}
+
+/*----------------------Fin Header 3-------------------------*/
+
+
+/*------------------------General----------------------------*/
+body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    font-family: calibri, Arial, Helvetica, sans-serif;
+}
+
+#entete
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: black 00px 0px 66px ;
+}
+
+.titreLogo
+{
+    display: flex;
+    flex-direction: row;
+   /*border: 2px solid blue;*/
+    width: 40%;
+    height: 7vw;
+    justify-content: center;
+    text-align: center;
+    align-items: center;  
+}
+
+a{
+    
+    text-decoration: none;
+    color: black;
+}
+
+h1
+{
+    font-size: 5em;
+}
+
+.espaceHorizontal
+{
+    width: 1.1vw;
+}
+
+.logo 
+{
+    height: 4vw;
+    width: 4vw;
+}
+    
+nav .boutonNav
+{
+    /*border: solid pink 2px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 2em;
+}
+
+#contenu
+{
+    background-image: url("../Images/background1.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 90%;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+#imageFond
+{
+    height: 540px;
+}
+
+#cookie{
+    z-index: 100;
+    width: 100%;
+    height: 8vw;
+    background-color: rgb(232, 234, 237);
+    margin-top: 44vw;
+    position: fixed;
+    padding-left: 5vw;
+}
+
+.textCookie{
+    position: absolute;
+    margin-left: 30vw;
+    margin-top: 1vw;;
+}
+
+.divBoutons{
+    position: absolute;
+    margin-left: 42vw;
+    margin-top: 3.5vw;
+}
+        
+.titrePprincipal
+{
+    display: flex;
+    background-color: orange;
+    font-size: 2.5em;
+    width: 70vw;
+    margin-left: 2vw;
+    line-height: 4vw;
+    justify-content: center;
+    margin-top: 1vw;
+}
+
+h2{
+    text-align: center;
+}
+
+#divResume
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: auto;
+    box-shadow: black 00px 0px 66px;
+    font-size: 1vw;
+    
+}
+
+.arrLigneHortl{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    height: 5px;
+    padding-top: 5vw;
+}
+
+.ligneHortl{
+    display: flex;
+    width: 60%;
+    height: 1px;
+    background-color: black;
+}
+
+#resume
+{
+    /*border: red solid 2px;*/
+    width: 90%;
+    height: 60%;
+    font-size: 1.75em;
+    text-align: justify;
+}
+
+
+.guillemets
+{
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: orange;
+}
+
+#contenuDivVideo{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#titreVideo{
+    display: flex;
+    font-size: 3vw;
+    margin-right: auto;
+    margin-left: 5vw;
+    color: orange;
+    background-color: white;
+}
+
+#contenervideo{
+    display: flex;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: black 0px 100px 66px;
+}
+
+#video{
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+}
+iframe{
+    width: 100%;
+}
+
+#textVideo{
+    display: flex;
+    width: 55%;
+}
+
+#contenerTemoignages{
+    display: flex;
+    font-size: 0.7vw;
+    justify-content: center;
+}
+
+#temoignages{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center; 
+    box-shadow: black 0px 100px 66px;
+    padding-bottom: 3vw;
+}
+
+
+#basPage{
+    display: flex;
+    height: 5vw;
+    background: white;
+    width: 100%;
+    justify-content: center;
+}
+
+#piedDePage
+{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*text-align: center;*/
+}
+
+.titreLogoFooter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: blue solid 2px;  */      
+    height: 100px;
+    margin: auto;
+    margin-top: 1.2vw;
+}
+
+#titreFooter
+{
+    /*border: green solid 2px;*/
+    font-size: 3em;
+}
+
+#plumeFooter
+{
+    /*border: red 2px solid;*/
+    padding-left: 0.8em;
+}
+
+#navPiedDePage
+{
+    /*border: 2px solid pink;*/
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.3vw;
+    margin-bottom: 2.5vw;
+}
+
+.pucesPiedDePage
+{
+    /*border: 2px solid black;*/
+    font-size: 1.8em;
+}
+
+#copyright
+{
+    font-size: 1.2em;
+}
+
+    /*----------------------------------Menu déroulant------------------------------------*/
+    /*body{
+        margin: 0px;
+        padding: 0px;
+        font-family: verdana, calibri, sans-serif;
+    }*/
+    /*********************** MENU *********************/
+nav{
+    width: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menumobile{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 2vw;
+    margin-top: 2vw;
+    font-size: 1.3vw;
+}
+
+.menu{
+    float: left;
+    position: relative;
+    color: #222538;
+    height: 2vw;
+}
+    
+.submenu{
+    display: none;
+    color: black;
+    background-color: orange;
+}
+
+.submenu1{
+    display: none;
+    color: black;
+    background-color: orange;
+}
+
+.entreeSubMenu1 {
+    padding: 1vw 2vw;
+    font-size: 13px;
+    color: #222538;
+    width: 170px;
+    border-bottom: 1px solid #ccc;
+}
+    
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+    
+.entreeSubMenu {
+    padding: 1vw 2vw;
+    font-size: 13px;
+    color: #222538;
+    width: 170px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menumobileTitre{
+    display: none;
+}
+
+    /******************* MENU HOVER ******************/
+.menu:hover{
+    border-top: 5px solid orange;
+    background-color: rgba(228, 77, 38, 0.15);
+}
+
+.menu:hover .submenu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.menu:hover .submenu1 {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: -50px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.entreeSubMenu:hover a{
+    color: #eee;
+    font-weight: bold;
+}
+
+.entreeSubMenu:hover{
+    background-color: rgba(228, 77, 38, 0.15);
+}
+
+    /*-------------------------Page Article--------------------------------*/
+
+    .titreArticle
+    {
+        display: flex;
+        justify-content: center;
+        margin-block-end: 0em;
+        background-color: rgb(0, 150, 0);
+        color: white;
+        padding: 0.5em;
+        width: 49%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    #contenuArticle{
+        background-color: rgb(236, 236, 236);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #conteneurArticles{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+        
+        margin-bottom: 5vw;
+    }
+
+    .p{
+        width: auto;
+        background-color: white;
+        font-size: 1.4em;
+        text-align: justify;
+        padding: 1.7em;
+        box-shadow: 0px 0px 100px 3px rgb(199, 199, 199);   
+    }
+
+    .D
+            {
+                display: flex;
+                width: 15vw;
+                float: right;
+                flex-direction: column;    
+            }
+            .G
+            {
+                display: flex;
+                width: 15vw;
+                float: left;
+                flex-direction: column;    
+            }
+h4{
+    font-size: 1.5vw;
+}
+/*------------------------Fin page Article----------------*/
+
+/*-----------------------Page inscription et connexion-----------------*/
+#contenerInscription{
+    display: flex;
+    justify-content: center;
+}
+#contenuInscription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    border: 1px solid black;
+    width: 50%;
+    box-shadow: black 10px 10px 20px;
+}
+
+.titreForm{
+    width: auto;
+    font-weight: normal;
+}
+
+#email{
+    width: 45vw;
+}
+
+#pseudo{
+    width: 45vw;
+    margin-bottom: 1vw;
+}
+
+#passConfirm{
+    display: flex;
+    flex-direction: row;
+    width: 45vw;
+    justify-content: space-between;
+}
+
+#motDePasse{
+    display: flex;
+    width: 21vw;
+}
+
+#confirm{
+    display: flex;
+    width: 21vw;
+}
+
+input{
+    margin-bottom: 0.5vw;
+    font-size: 1.5vw;
+}
+
+.star{
+    color: red;
+}
+
+#submit{
+    background-color: rgb(66, 135, 245);
+    border: 1px solid rgb(66, 135, 245);
+    margin-top: 1vw;
+    color: white;
+    height: 2vw;
+    font-size: 1.4vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vw;
+}
+
+/*---------refresh------*/
+.ligne{
+    display: flex;
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw; 
+    flex-direction: column;
+}
+#inscipRefresh{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.titreRefresh{
+    width: auto;
+    font-weight: normal;
+    font-size: 3.7vw;
+}
+
+p{
+    margin-block-end: 0;
+}
+/*---------------------Fin Page inscription et connexion--------*/
+
+
+/*--------------------Page Forum--------------------------------*/
+
+#titreForum{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: rgb(96, 98, 99);
+    justify-content: center;
+    color: white;
+}
+
+#contenerForum{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 214, 214);
+}
+
+#divText{
+    width: 60%;
+    background-color: white;
+    margin-top: 5vw; 
+    margin-bottom: 2vw;
+}
+
+#commentaire{
+    width: 45vw;
+    height: 10vw;
+}
+.divBtnText{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1.5vw;
+    margin-left: 2vw;
+}
+
+#pseudoF{
+    width: 5vw;
+    font-size: 1.8vw;
+    color: orange;
+    margin: 1vw;
+}
+
+#publier{
+    display: flex;
+    height: 3vw;
+    background-color: rgb(66, 135, 245);
+    color: white;
+    margin-left:1vw;
+    border: rgb(66, 135, 245);
+    font-size: 1.5vw;
+    border-radius: 4px;
+    width: 6vw;
+}
+
+/*width: 10vw;
+    background-color:rgb(66, 135, 245);
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3vw;
+    margin-top: 3vw;
+    font-size: 1.5vw;
+    border-radius: 4px;
+    color: white;
+}*/
+/*-------------------Fin page forum----------------------------*/
+   
+    /*************** MENU RESPONSIVE **************/   
+@media screen and (max-width: 780px){
+nav {
+    width: 100%;
+}
+
+.menumobile
+{
+    display: block;
+}
+
+.menumobileTitre
+{
+    display: block;
+    color: black;
+    background-color: orange;
+    text-align: center;
+    width: 100%;
+}
+
+.menu
+{
+    display: block;  
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    transition: visibility 2s, opacity 2s, height 2s linear;
+    width: 100%;
+    justify-content: center;
+}
+
+.menuTitre
+{
+    flex: 2;
+}
+
+.submenu
+{
+    flex: 7;
+    display: flex;
+    width: 80%;
+    text-align: center;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    transition: visibility 2s, opacity 2s, height 2s linear;
+}
+
+.entreeSubMenu
+{
+    width: 100%;
+    text-align: center;
+}	
+        
+        /****************** Menu HOVER ***************/
+.menumobile:hover
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.menumobile:hover .menu
+{
+    display: inline-block;
+    opacity: 1;
+    visibility: visible;
+    height: auto; 
+}
+    
+.menu:hover .submenu
+{
+    left: 30vw;
+    top:auto;
+    opacity: 1;
+    visibility: visible;
+    height: auto; 
+}
+
+.submenu:hover .entreeSubMenu
+{
+    display: block;
+    position: static;
+}
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 780px) and (max-width: 1300px ){
+    h1{
+        font-size: 4.6vw;
+        width: 30vw;
+    }
+
+    .titrePprincipal{
+        font-size: 2.1vw;
+        text-align: center;
+        height: 4vw;
+        width: 60vw;
+    }
+
+    #entete
+    {
+        height: 12vw;
+    }
+
+    .titreLogo{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 1vw;
+    }
+
+    nav{
+        width: 80%;
+    }
+    .menumobile{
+        align-self: flex-end;
+        margin-bottom: 2vw;
+        margin-right: 1vw;
+    }
+    #cookie{
+        margin-top: 27vw;
+    }
+
+    .textCookie{
+        margin-left: 20vw;
+    }
+    .divBoutons{
+        margin-left: 38vw;
+    }
+}

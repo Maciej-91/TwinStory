@@ -1,0 +1,149 @@
+/*--------------------------------------------BODY-----------------------------------------*/
+body
+{
+  
+    margin: 0%;
+    font-family: calibri, Arial, Helvetica, sans-serif;
+}
+/*--------------------------------------------HEADER-----------------------------------------*/
+#entete
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: black 0px -20px 66px;
+    z-index : 1;
+}
+    .titreLogo
+    {
+        display: flex;
+        flex-direction: row;
+        /*border: 2px solid blue;*/
+        width: 40%;
+        height: 7vw;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        
+    }
+        h1
+        {
+            font-size: 5em;
+        }
+        .espaceHorizontal
+        {
+            width: 1.1vw;
+        }
+        .logo 
+        {
+            height: 4vw;
+            width: 4vw;
+        }
+    nav
+    {
+        display: flex;
+        flex-direction: row;
+        /*border: 2px solid black;*/
+        justify-content: center;
+        text-align: center;
+        width: 50%;
+    }
+        .boutonNav
+        {
+            /*border: solid pink 2px;*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            font-size: 2em;
+        }
+/*--------------------------------------------CONTENU PAGE-----------------------------------------*/
+#contenu
+{
+    
+    background-color: rgb(236, 236, 236);
+    z-index: -1;
+
+} 
+    #conteneurArticles
+    {
+        /*border: 2px solid black;*/
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+        
+        margin-bottom: 5vw;
+       
+    }
+        h2
+        {
+            background-color: rgb(0, 150, 0);
+            color: white;
+            text-align: center;
+            padding: 0.5em;
+        }
+        h4
+        {
+            font-size: 1.3em;
+            padding: 0px;
+        }
+        p
+        {
+            
+            width: auto;
+            background-color: white;
+            font-size: 1.4em;
+            text-align: justify;
+            padding: 1.3em;
+            box-shadow: 0px 0px 50px 5px rgb(168, 168, 168);
+        }
+/*--------------------------------------------FOOTER-----------------------------------------*/
+#piedDePage
+{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*text-align: center;*/
+    z-index: 1;
+}
+    .titreLogoFooter
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*border: blue solid 2px;  */      
+        height: 100px;
+        margin: auto;
+        margin-top: 1.2vw;
+    }
+        #titreFooter
+        {
+            /*border: green solid 2px;*/
+             font-size: 3em;
+        }
+        #plumeFooter
+        {
+            /*border: red 2px solid;*/
+            padding-left: 0.8em;
+        }
+    #navPiedDePage
+    {
+        /*border: 2px solid pink;*/
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.3vw;
+        margin-bottom: 2.5vw;
+    }
+        .pucesPiedDePage
+        {
+            /*border: 2px solid black;*/
+            font-size: 1.8em;
+        }
+    #copyright
+    {
+        font-size: 1.2em;
+    }

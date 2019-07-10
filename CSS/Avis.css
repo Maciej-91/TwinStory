@@ -1,0 +1,92 @@
+#popUp
+{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+form
+{
+    display: inline-block;
+    background-color:#D7DFE3;
+    padding:2vw;
+    border:solid black 2px;
+    box-shadow: grey -10px 33px 66px 5px;
+    display: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.espaceVertical
+{
+    height: 15vw;
+}
+
+#star
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+a:hover, a:focus
+{
+    text-decoration: none;
+}
+
+a[href*="intent"]
+{
+    display:inline-block;
+    margin-top: 0.4em;
+    padding-left: 25px;
+    background: url(full-css-microsoft-logo/bird.png) 0 4px no-repeat;
+}
+
+.rating
+{
+    width: 226px;
+    margin: 0 auto 1em;
+    font-size: 45px;
+    overflow:hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.rating a
+{
+    float:right;
+    color: #aaa;
+    text-decoration: none;
+    -webkit-transition: color .4s;
+    -moz-transition: color .4s;
+    -o-transition: color .4s;
+    transition: color .4s;
+}
+
+.rating a:hover,
+.rating a:hover ~ a,
+.rating a:focus,
+.rating a:focus ~ a
+{
+    color: orange;
+    cursor: pointer;
+}
+
+.rating2 
+{
+    direction: rtl;
+}
+
+.rating2 a 
+{
+    float:none
+}
